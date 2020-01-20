@@ -294,7 +294,7 @@ void p25_recorder::set_tdma(bool phase2) {
 }
 
 void p25_recorder::clear() {
-  //op25_frame_assembler->clear();
+  op25_frame_assembler->clear();
 }
 
 void p25_recorder::autotune() {
